@@ -1,6 +1,6 @@
 def is_palindrome():
 	print ("""
-	Define a function is_palindrome() that recognizes palindromes (i.e. words that look the same written backwards).
+	8. Define a function is_palindrome() that recognizes palindromes (i.e. words that look the same written backwards).
 	For example, is_palindrome( "radar" ) should return True.	
 	""")
 	print ("---")
@@ -8,18 +8,21 @@ def is_palindrome():
 	str2=""
 	subs=-1
 	i=0
+	a=False
 	for index, character in enumerate(str1):
 		str2 += str1[len(str1)+subs]
 		subs-=1
-
-	if str2[index] == str1[len(str1)+subs]:
-		print (True, "The word is palindrome!")
-	else:
-		print (False, "The word is not a palindrome!")
+		if str2[index] == str1[len(str1)+subs]:
+			a=True
+			# print (True, "The word is palindrome!")
+		else:
+			a=False
+			# print (False, "The word is not a palindrome!")
+	print ("is palindrome?",a)
 	print ("---")
 	print ()
 """
-Palindrome Examples: --> Dont use special characters:
+Palindrome Examples: --> Do not use special characters:
 Alí tomó tila.
 Allí ves Sevilla.
 Aman a Panamá.
@@ -31,8 +34,3 @@ A mí me mima.
 """
 
 is_palindrome()
-
-
-
-
-

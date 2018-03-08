@@ -1,8 +1,11 @@
-def sum_function(list):
-	print ("""
-	6. Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in a list of numbers. 
+print ("""
+	6. Define a function sum() and a function multiply() that sums and multiplies (respectively) 
+	all the numbers in a list of numbers. 
 	For example, sum([1, 2, 3, 4]) should return 10, and multiply([1, 2, 3, 4]) should return 24.
 	""")
+
+def sum_function(list):
+
 	print ()
 	print ("---")
 	print ("The list to sum is: [1,2,3,4])")
@@ -19,7 +22,6 @@ def sum_function(list):
 sum_function([1,2,3,4])
 
 
-
 def multiply_function(list):
 	print ("---")
 	print ("The list to multiply is: [1,2,3,4])")
@@ -34,9 +36,3 @@ def multiply_function(list):
 	print ()
 
 multiply_function([1,2,3,4])
-
-
-
-
-
-

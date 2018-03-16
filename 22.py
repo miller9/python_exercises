@@ -1,4 +1,4 @@
-print ("""
+print ('''
 
 	22. In cryptography, a Caesar cipher is a very simple encryption techniques
 	in which each letter in the plain text is replaced by a letter some
@@ -25,5 +25,5 @@ print ("""
 	Note that since English has 26 characters, your ROT-13 program 
 	will be able to both encode and decode texts written in English.
 
-	""")
+	''')
 
